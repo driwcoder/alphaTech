@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Poppins;
+}
+.container {
+  min-width: 1024px;
+}
+.content {
+  width: 1024px;
+}
+/* ! HEADER */
+
+.topo {
+  width: 100%;
+  padding: 35px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo img {
+  width: 80px;
+}
+.logo {
+  display: flex;
+  gap: 20px;
+}
+.logo p {
+  color: rgb(55, 157, 252);
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.links a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(35, 48, 50);
+}
+
+/* ! BANNER */
+.banner {
+  background-color: rgb(47, 134, 214);
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.banner .content {
+  padding: 180px 0;
+  display: flex;
+  align-items: center;
+}
+.banner .texto {
+  color: aliceblue;
+  width: 470px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/* ! PRIMEIRO ANUNCIO */
+.anuncio1 {
+  background-color: rgb(35, 48, 62);
+  color: aliceblue;
+}
+.anuncio1 .content {
+  margin: 0 auto;
+  padding: 40px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.anuncio1 a {
+  color: aliceblue;
+  background-color: rgb(47, 134, 214);
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  padding: 20px 30px;
+  border-radius: 7px;
+}
+.anuncio1 a img {
+  margin-right: 10px;
+  width: 20px;
+}
+
+/* ! INFORMAÇÕES */
+
+.informacoes {
+  display: flex;
+  justify-content: center;
+  padding: 100px;
+  text-align: center;
+}
+.informacoes h2 {
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+.boards {
+  display: flex;
+  text-align: center;
+  gap: 20px;
+}
+.board1,
+.board2,
+.board3 {
+  width: 33%;
+}
+.boards h3 {
+  margin-bottom: 20px;
+}
+.boards img {
+  width: 100px;
+}
+.informacoes span {
+  color: rgb(47, 134, 214);
+}
+
+/* ! TABELA */
+.planos {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(241, 243, 247);
+  padding: 100px;
+}
+.planos .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 1024px;
+}
+.planos h2 {
+  margin-bottom: 100px;
+}
+.planos h2 span {
+  color: rgb(47, 134, 214);
+}
+table {
+  box-shadow: 0 0 50px 20px rgb(47, 134, 214);
+  border-radius: 10px;
+}
+table img {
+  width: 100px;
+}
+th {
+  height: 250px;
+}
+th h3 {
+  margin-bottom: 20px;
+}
+th p {
+  color: rgb(148, 148, 148);
+  font-weight: normal;
+}
+
+td {
+  padding: 20px;
+}
+.lb {
+  background-color: rgb(221, 221, 221);
+}
+.lc td {
+  border: 1px solid rgb(246, 246, 246);
+}
+
+/* ! SEGUNDO ANUNCIO */
+.anuncio2 {
+  background-color: rgb(47, 134, 214);
+  color: aliceblue;
+}
+.anuncio2 .content {
+  margin: 0 auto;
+  padding: 40px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.anuncio2 a {
+  color: aliceblue;
+  background-color: rgb(35, 48, 62);
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  padding: 20px 30px;
+  border-radius: 7px;
+}
+.anuncio2 a img {
+  margin-right: 10px;
+  width: 20px;
+}
+
+/* ! CONTATO */
+
+.contatos {
+  display: flex;
+  justify-content: center;
+}
+
+.contatos .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1024px;
+  padding: 30px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.contatos .content .logo {
+  margin-bottom: 40px;
+}
+
+/* ! FOOTER */
+
+footer{
+  padding: 40px;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgb(241, 243, 247);
+}
+
+footer span {
+  color: rgb(47, 134, 214)
+}
+
+footer a {
+  text-decoration: none;
+}
