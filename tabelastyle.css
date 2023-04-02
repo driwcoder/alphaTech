@@ -1,0 +1,143 @@
+/* ! GERAL */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 1024px;
+  font-family: "Poppins";
+}
+
+/* ! TOPO */
+
+.header {
+  background-color: rgb(47, 134, 214);
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.header .content {
+  padding: 35px 0;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: white;
+}
+.header a {
+  text-decoration: none;
+  
+  color: white;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logo img {
+  width: 80px;
+}
+.logo h1 {
+  color: black;
+}
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+/* ! TABELA */
+.tabela {
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+}
+table {
+  text-align: center;
+}
+th, td {
+  padding: 10px ;
+  border: 1px solid rgb(241, 243, 247);
+}
+.cinza {
+  background-color: rgb(241, 243, 247);
+  margin: 2px;
+}
+.vazia {
+  border: 1px solid rgb(255, 255, 255)
+}
+.bolinha {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(47, 134, 214);
+  border-radius: 50%;
+}
+th p {
+  color: rgb(133, 132, 132);
+  font-weight: normal;
+}
+td {
+  margin: 0 auto;
+
+}
+.ninho {
+  display: flex;
+  justify-content: center;
+}
+
+/* ! DIREITOS */
+
+.direitos {
+  background-color: rgb(47, 134, 214);
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+.direitos .content {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+.direitos .logo {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+.direitos p {
+  color: white;
+  text-align: center;
+}
+
+/* ! FOOTER */
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(241, 243, 247);
+}
+.footer .content{
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer span {
+  color: rgb(47, 134, 214)
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+/* !SETA */
+
+.seta-inicio {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+.seta-inicio img {
+  width: 55px;
+}

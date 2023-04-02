@@ -13,12 +13,17 @@ body {
   width: 1024px;
 }
 /* ! HEADER */
-
 .topo {
-  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+}
+.topo .content{
+  width: 1024px;
   padding: 35px 0px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+
 }
 
 .logo img {
@@ -54,7 +59,7 @@ body {
   align-items: center;
 }
 .banner .content {
-  padding: 180px 0;
+  padding: 100px 0;
   display: flex;
   align-items: center;
 }
@@ -165,7 +170,9 @@ th p {
   color: rgb(148, 148, 148);
   font-weight: normal;
 }
-
+table {
+  border-collapse: collapse;
+}
 td {
   padding: 20px;
 }
@@ -230,7 +237,7 @@ td {
 /* ! FOOTER */
 
 footer{
-  padding: 40px;
+  padding: 20px;
   text-align: center;
   font-weight: bold;
   background-color: rgb(241, 243, 247);
@@ -242,4 +249,15 @@ footer span {
 
 footer a {
   text-decoration: none;
+}
+
+/* !SETA */
+
+.seta-inicio {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+}
+.seta-inicio img {
+  width: 55px;
 }
